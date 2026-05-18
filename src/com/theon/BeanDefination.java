@@ -1,3 +1,5 @@
+package com.theon;
+
 public class BeanDefination {
 
     private String BeanName;
