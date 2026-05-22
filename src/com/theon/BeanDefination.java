@@ -1,12 +1,14 @@
 package com.theon;
 
+import java.util.List;
+
 public class BeanDefination {
 
     private String BeanName;
     private Class<?> beanClass;
     private String initMethodName;
     private String destroyMethodName;
-    private PropertyValues propertyValues;
+    private List<Dependency> dependencies;
 
     public String getBeanName() {
         return BeanName;
@@ -40,11 +42,11 @@ public class BeanDefination {
         this.destroyMethodName = destroyMethodName;
     }
 
-    public PropertyValues getPropertyValues() {
-        return propertyValues;
+    public List<Dependency> getDependencies() {
+        return dependencies;
     }
 
-    public void setPropertyValues(PropertyValues propertyValues) {
-        this.propertyValues = propertyValues;
+    public void setDependencies(List<Dependency> dependencies) {
+        this.dependencies = dependencies;
     }
 }

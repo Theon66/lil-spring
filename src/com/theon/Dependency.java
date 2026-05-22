@@ -1,6 +1,6 @@
 package com.theon;
 
-public class PropertyValues {
+public class Dependency {
 
     private String name;
     private Object value;

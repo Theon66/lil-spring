@@ -1,6 +1,6 @@
 package com.theon;
 
-public class Person {
+public class User {
 
     private String name;
     private Integer age;
